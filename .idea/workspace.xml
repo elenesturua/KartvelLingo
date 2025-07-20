@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- added the georgian flag image and intro to the main page" />
+    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="fixed layout to be center on the main page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +29,9 @@
     "accountId": "40f61a72-ea1f-4a26-8715-5fa877bbf2fc"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -68,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753053342348</updated>
-      <workItem from="1753053343590" duration="1653000" />
+      <workItem from="1753053343590" duration="2139000" />
     </task>
     <task id="LOCAL-00001" summary="- added the georgian flag image and intro to the main page">
       <option name="closed" value="true" />
@@ -78,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753054384430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed layout to be center on the main page">
+      <option name="closed" value="true" />
+      <created>1753055104565</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753055104565</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- added the georgian flag image and intro to the main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added the georgian flag image and intro to the main page" />
+    <MESSAGE value="fixed layout to be center on the main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed layout to be center on the main page" />
   </component>
 </project>

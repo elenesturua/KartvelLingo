@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="added fun catchphrase introduxtion and created a css file for styling">
+    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- added letters and possible english equivalents to the letters tab">
+      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/Letters.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/Plans.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/letterData.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/letters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/Plans.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/Plans.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/Letters.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753055637017</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- added letters and possible english equivalents to the letters tab">
+      <option name="closed" value="true" />
+      <created>1753063462127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753063462127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +124,7 @@
     <MESSAGE value="- added the georgian flag image and intro to the main page" />
     <MESSAGE value="fixed layout to be center on the main page" />
     <MESSAGE value="added fun catchphrase introduxtion and created a css file for styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fun catchphrase introduxtion and created a css file for styling" />
+    <MESSAGE value="- added letters and possible english equivalents to the letters tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added letters and possible english equivalents to the letters tab" />
   </component>
 </project>

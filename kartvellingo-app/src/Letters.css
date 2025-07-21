@@ -1,0 +1,54 @@
+.letters-page {
+    text-align: center;
+    padding: 3rem 1rem 6rem;
+    min-height: 100vh;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.letters-page h2 {
+    font-size: 2.5rem;
+    color: #c8102e;
+    margin-bottom: 1rem;
+}
+
+.letters-page p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.letter-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    font-size: 1.5rem;
+}
+
+.letter-list li {
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #fff6f6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.start-button {
+    background-color: #c8102e;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.start-button:hover {
+    background-color: #a30d24;
+    color: white;
+}

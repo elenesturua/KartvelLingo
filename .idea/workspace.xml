@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- created another tab that is going to serve as a guide&#10;-slowly designing the hierarchy: components folder with a button.tsx file inside&#10;-main.tsx depicting the tab relations">
+    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- designed the index tab by adding a button that will redirect the learner to next page&#10;- adjusted coloring, border for description and added more css elements to enhance the tab">
+      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/letters.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/Plans.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/Plans.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753053342348</updated>
-      <workItem from="1753053343590" duration="3987000" />
+      <workItem from="1753053343590" duration="5762000" />
     </task>
     <task id="LOCAL-00001" summary="- added the georgian flag image and intro to the main page">
       <option name="closed" value="true" />
@@ -109,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753056516861</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- designed the index tab by adding a button that will redirect the learner to next page&#10;- adjusted coloring, border for description and added more css elements to enhance the tab">
+      <option name="closed" value="true" />
+      <created>1753057530164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753057530164</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +128,7 @@
     <MESSAGE value="fixed layout to be center on the main page" />
     <MESSAGE value="added fun catchphrase introduxtion and created a css file for styling" />
     <MESSAGE value="- created another tab that is going to serve as a guide&#10;-slowly designing the hierarchy: components folder with a button.tsx file inside&#10;-main.tsx depicting the tab relations" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created another tab that is going to serve as a guide&#10;-slowly designing the hierarchy: components folder with a button.tsx file inside&#10;-main.tsx depicting the tab relations" />
+    <MESSAGE value="- designed the index tab by adding a button that will redirect the learner to next page&#10;- adjusted coloring, border for description and added more css elements to enhance the tab" />
+    <option name="LAST_COMMIT_MESSAGE" value="- designed the index tab by adding a button that will redirect the learner to next page&#10;- adjusted coloring, border for description and added more css elements to enhance the tab" />
   </component>
 </project>

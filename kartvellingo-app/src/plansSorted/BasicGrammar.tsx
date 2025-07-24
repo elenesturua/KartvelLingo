@@ -1,4 +1,4 @@
-import './letters.css';
+import './BasicGrammar.css';
 
 function BasicGrammar() {
     return (

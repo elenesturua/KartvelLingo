@@ -1,4 +1,4 @@
-import './letters.css';
+import './BasicPhrases.css';
 
 function BasicPhrases() {
     return (

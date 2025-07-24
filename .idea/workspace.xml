@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- can tap and enhance cards to view additional info on each letter">
-      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.tsx" afterDir="false" />
+    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- designed the intro page for letter learning to explain some about the Georgian alphabet and start with learning 5 vowels to make it easier">
+      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/Vowels.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/letter-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/letter-data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicGrammar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicGrammar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicPhrases.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicPhrases.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <workItem from="1753300382204" duration="1827000" />
       <workItem from="1753374793639" duration="114000" />
       <workItem from="1753375507441" duration="625000" />
-      <workItem from="1753376204717" duration="6562000" />
+      <workItem from="1753376204717" duration="7256000" />
     </task>
     <task id="LOCAL-00001" summary="- added the georgian flag image and intro to the main page">
       <option name="closed" value="true" />
@@ -160,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753385801114</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="- designed the intro page for letter learning to explain some about the Georgian alphabet and start with learning 5 vowels to make it easier">
+      <option name="closed" value="true" />
+      <created>1753387475006</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753387475006</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +183,7 @@
     <MESSAGE value="- add appropriate roots to the new tabs" />
     <MESSAGE value="- filled each letter card with appropriate letter, latin version of the letter, pronounciation helpers, and example words" />
     <MESSAGE value="- can tap and enhance cards to view additional info on each letter" />
-    <option name="LAST_COMMIT_MESSAGE" value="- can tap and enhance cards to view additional info on each letter" />
+    <MESSAGE value="- designed the intro page for letter learning to explain some about the Georgian alphabet and start with learning 5 vowels to make it easier" />
+    <option name="LAST_COMMIT_MESSAGE" value="- designed the intro page for letter learning to explain some about the Georgian alphabet and start with learning 5 vowels to make it easier" />
   </component>
 </project>

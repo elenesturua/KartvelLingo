@@ -1,4 +1,4 @@
-import './letters.css';
+import './Letters.css';
 
 function Letters() {
     return (

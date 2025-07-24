@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- added two more learning plans options: basic phrases &amp; fun facts about the language">
+    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- add appropriate roots to the new tabs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/basicGrammar.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicGrammar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/basicGrammar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicGrammar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/basicPhrases.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicPhrases.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/basicPhrases.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicPhrases.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/letterData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/letter-data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,8 @@
       <workItem from="1753128985133" duration="55000" />
       <workItem from="1753300382204" duration="1827000" />
       <workItem from="1753374793639" duration="114000" />
-      <workItem from="1753375507441" duration="395000" />
+      <workItem from="1753375507441" duration="625000" />
+      <workItem from="1753376204717" duration="4585000" />
     </task>
     <task id="LOCAL-00001" summary="- added the georgian flag image and intro to the main page">
       <option name="closed" value="true" />
@@ -134,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753066790300</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- add appropriate roots to the new tabs">
+      <option name="closed" value="true" />
+      <created>1753375937862</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753375937862</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
     <MESSAGE value="- added letters and possible english equivalents to the letters tab" />
     <MESSAGE value="- Created .css files for each tab for proper formatting&#10;- designed letterData.ts to ensure users' proper understanding of each letter" />
     <MESSAGE value="- added two more learning plans options: basic phrases &amp; fun facts about the language" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added two more learning plans options: basic phrases &amp; fun facts about the language" />
+    <MESSAGE value="- add appropriate roots to the new tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add appropriate roots to the new tabs" />
   </component>
 </project>

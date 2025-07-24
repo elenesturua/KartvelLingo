@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- filled each letter card with appropriate letter, latin version of the letter, pronounciation helpers, and example words">
+    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- can tap and enhance cards to view additional info on each letter">
+      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/letter-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/letter-data.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +61,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters" />
       <recent name="$PROJECT_DIR$/kartvellingo-app/src/plansSorted" />
       <recent name="$PROJECT_DIR$/kartvellingo-app/public" />
     </key>
@@ -82,7 +86,7 @@
       <workItem from="1753300382204" duration="1827000" />
       <workItem from="1753374793639" duration="114000" />
       <workItem from="1753375507441" duration="625000" />
-      <workItem from="1753376204717" duration="5290000" />
+      <workItem from="1753376204717" duration="6562000" />
     </task>
     <task id="LOCAL-00001" summary="- added the georgian flag image and intro to the main page">
       <option name="closed" value="true" />
@@ -148,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753385387986</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="- can tap and enhance cards to view additional info on each letter">
+      <option name="closed" value="true" />
+      <created>1753385801114</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753385801114</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +175,7 @@
     <MESSAGE value="- added two more learning plans options: basic phrases &amp; fun facts about the language" />
     <MESSAGE value="- add appropriate roots to the new tabs" />
     <MESSAGE value="- filled each letter card with appropriate letter, latin version of the letter, pronounciation helpers, and example words" />
-    <option name="LAST_COMMIT_MESSAGE" value="- filled each letter card with appropriate letter, latin version of the letter, pronounciation helpers, and example words" />
+    <MESSAGE value="- can tap and enhance cards to view additional info on each letter" />
+    <option name="LAST_COMMIT_MESSAGE" value="- can tap and enhance cards to view additional info on each letter" />
   </component>
 </project>

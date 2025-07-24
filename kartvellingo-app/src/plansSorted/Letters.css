@@ -95,3 +95,13 @@
 .close-button:hover{
     background-color: #a30d24;
 }
+.modal-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+

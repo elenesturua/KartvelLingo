@@ -1,36 +1,75 @@
-import {useNavigate} from "react-router-dom";
+import { useState } from "react";
+//import { useNavigate } from "react-router-dom";
 import "./LettersIntro.css";
 
-function LettersIntro() {
-    const navigate = useNavigate();
+const slides = [
+  {
+    title: "Welcome to the Georgian Alphabet!",
+    content:
+      "The Georgian alphabet consists of 33 letters: 5 vowels and 28 consonants.",
+  },
+  {
+    title: "Fun Fact!",
+    content:
+      "Before you start complaining: There used to be 38 letters in the old Georgian alphabet!",
+  },
+  {
+    title: "Fixed Pronunciation",
+    content:
+      "In Georgian, letters have a fixed pronunciation. Unlike English, a letter's sound never changes based on the word.",
+  },
+  {
+    title: "Why Vowels First?",
+    content:
+      "Let's focus on the 5 vowels first, because they are key to clear pronunciation, even if consonants seem tricky at first.",
+  },
+];
 
-    const handleStart = () => {navigate('/Letters/vowels');};
-    return (
-        <div className={"letters-intro-page"}>
-            <h2>Welcome to the Georgian Alphabet!</h2>
-            <p>
-                The Georgian alphabet consists of 33 letters: 5 vowels and 28 consonants
-            </p>
-            <p>
-                Fun fact before you start complaining: There used to be 38 letters in the old Georgian alphabet!
-            </p>
-            <p>
-                In Georgian, letters have a fixed pronounciation.
-                Unlike english, where a letter's sound changes based on the word, Georgian letters always sound the same.
-            </p>
-            <p>
-                Before we dive into all 33 letters, let's focus on the 5 vowels.
-                These vowels are the key to getting pronounciation right and will help you communicate clearly, even if consonants seem tricky at firast.
-            </p>
-            <p>
-                Some Georgian consonants are unique to the language and may feel unfamiliar.
-                Don't worry if you mispronounce them initially. With the correct vowel sounds, you'll still be understood!
-            </p>
+function LettersIntro({
+  onExit,
+  onFinish,
+}: {
+  onExit: () => void;
+  onFinish: () => void;
+}) {
+  //const navigate = useNavigate();
+  const [currentSlide, setCurrentSlide] = useState(0);
 
-            <div className="start-section">
-                <button className="start-button" onClick={handleStart}>Start with Vowels </button>
-            </div>
-        </div>
-    )
+  const nextSlide = () =>
+    setCurrentSlide((prev) => Math.min(prev + 1, slides.length - 1));
+  const prevSlide = () => setCurrentSlide((prev) => Math.max(prev - 1, 0));
+
+  //const handleStart = () => navigate("/letters/vowels");
+
+  return (
+    <div className="letters-intro-page">
+      <button className="exit-button" onClick={onExit}>
+        ×
+      </button>
+      <div className="intro-card">
+        <h2>{slides[currentSlide].title}</h2>
+        <p>{slides[currentSlide].content}</p>
+      </div>
+      <div className="intro-controls">
+        <button
+          onClick={prevSlide}
+          disabled={currentSlide === 0}
+          className="nav-button"
+        >
+          ← Back
+        </button>
+        {currentSlide < slides.length - 1 ? (
+          <button onClick={nextSlide} className="nav-button">
+            Next →
+          </button>
+        ) : (
+          <button onClick={onFinish} className="start-button">
+            Start with Vowels →
+          </button>
+        )}
+      </div>
+    </div>
+  );
 }
+
 export default LettersIntro;

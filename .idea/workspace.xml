@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- updating paths to make it easier for the user to navigate&#10;- navigation updated using navigate instead of local storage in Letters.tsx">
+    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- making letter-list keyboard-accessable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <workItem from="1753375507441" duration="625000" />
       <workItem from="1753376204717" duration="9809000" />
       <workItem from="1753721091229" duration="10748000" />
-      <workItem from="1754227228064" duration="4507000" />
+      <workItem from="1754227228064" duration="5185000" />
     </task>
     <task id="LOCAL-00001" summary="- added the georgian flag image and intro to the main page">
       <option name="closed" value="true" />
@@ -192,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754825082326</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="- making letter-list keyboard-accessable">
+      <option name="closed" value="true" />
+      <created>1754825527401</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1754825527401</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,14 +230,15 @@
     <MESSAGE value="- draft intro page idea that leads to vowels then leads to all letters" />
     <MESSAGE value="- ran prettier on all files for better formatting&#10;- changed navigation into a more logital structure (giving users ability to exit from the intro, vowels or vowelQuiz page which all lead to the main letters page &#10;- finished the vowelquiz page with a 10 question long quiz with real time feedback for the user" />
     <MESSAGE value="- updating paths to make it easier for the user to navigate&#10;- navigation updated using navigate instead of local storage in Letters.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="- updating paths to make it easier for the user to navigate&#10;- navigation updated using navigate instead of local storage in Letters.tsx" />
+    <MESSAGE value="- making letter-list keyboard-accessable" />
+    <option name="LAST_COMMIT_MESSAGE" value="- making letter-list keyboard-accessable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx</url>
-          <line>167</line>
+          <line>170</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

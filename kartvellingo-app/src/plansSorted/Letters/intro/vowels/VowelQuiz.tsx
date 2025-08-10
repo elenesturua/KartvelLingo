@@ -87,9 +87,12 @@ function VowelQuiz({
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [score, setScore] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
+  const shuffle = <T,>(arr: T[]) => [...arr].sort(() => Math.random() - 0.5);
+  const [equiv, setEquiv] = useState(() => shuffle(equivalenceQuiz));
+  const [pron, setPron] = useState(() => shuffle(pronunciationQuiz));
 
   const questions =
-    phase === "equivalence" ? equivalenceQuiz : pronunciationQuiz;
+    phase === "equivalence" ? equiv : pron;
   const question = questions[current];
 
   const handleOptionClick = (option: string) => {

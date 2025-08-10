@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./VowelQuiz.css";
-import { useNavigate } from "react-router-dom";
+
 
 interface QuizQuestion {
   letter: string;
@@ -77,15 +77,12 @@ const pronunciationQuiz: QuizQuestion[] = [
 
 function VowelQuiz({
   onExit,
-  onFinish,
 }: {
   onExit: () => void;
-  onFinish: () => void;
 }) {
   const [phase, setPhase] = useState<"equivalence" | "pronunciation" | "done">(
     "equivalence",
   );
-  const navigate = useNavigate();
   const [current, setCurrent] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [score, setScore] = useState(0);
@@ -132,7 +129,7 @@ function VowelQuiz({
   return (
     <div className="vowel-quiz-page">
       <button className="exit-button" onClick={onExit}>
-        ✕
+        Exit
       </button>
       <h2>Vowel Quiz</h2>
       <p>Test your knowledge of the Georgian vowels!</p>

@@ -4,13 +4,14 @@ import { letterData, type LetterData } from "./letter-data";
 import LettersIntro from "./intro/LettersIntro.tsx";
 import Vowels from "./intro/vowels/Vowels.tsx";
 import VowelQuiz from "./intro/vowels/VowelQuiz.tsx";
+import { Link, useNavigate } from "react-router-dom";
 
 function Letters() {
   const [step, setStep] = useState<"intro" | "vowels" | "quiz" | "full">(
     "intro",
   );
   const [selectedLetter, setSelectedLetter] = useState<LetterData | null>(null);
-
+  const navigate = useNavigate();
   useEffect(() => {
     const completed = localStorage.getItem("lettersIntroCompleted");
     if (completed === "true") {
@@ -59,7 +60,7 @@ function Letters() {
             <div className="modal-letter">{selectedLetter.letter}</div>
             <div className="modal-latin">{selectedLetter.latin}</div>
             <p>
-              <strong>Pronunciation:</strong> {selectedLetter.pronounciation}
+              <strong>Pronunciation:</strong> {selectedLetter.pronunciation}
             </p>
             <p>
               <strong>Example:</strong> {selectedLetter.example}
@@ -74,7 +75,7 @@ function Letters() {
         </div>
       )}
 
-      <button className="start-button" onClick={() => window.history.back()}>
+      <button className="start-button" onClick={() => navigate("/plans")}>
         ← Back to Plans
       </button>
     </div>

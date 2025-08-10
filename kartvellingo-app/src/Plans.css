@@ -24,8 +24,17 @@
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:1rem;
 }
 
+.plan-card .start-button {
+  width: 80%;
+  max-width: 240px;
+  margin: 0 auto;
+}
 .plan-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
@@ -55,4 +64,16 @@
 
 .start-button:hover {
   background-color: #a30d24;
+}
+.start-button.outline {
+  background-color: transparent;
+  border: 2px solid #c8102e;
+  color: #c8102e;
+  font-weight: 500;
+}
+
+.start-button.outline:hover {
+  background-color: #ffe5e9;
+  border-color: #a30d24;
+  color: #a30d24;
 }

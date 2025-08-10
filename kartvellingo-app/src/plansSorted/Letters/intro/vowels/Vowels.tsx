@@ -43,7 +43,7 @@ function Vowels({
             <div className="modal-letter">{selectedLetter.letter}</div>
             <div className="modal-latin">{selectedLetter.latin}</div>
             <p>
-              <strong>Pronunciation:</strong> {selectedLetter.pronounciation}
+              <strong>Pronunciation:</strong> {selectedLetter.pronunciation}
             </p>
             <p>
               <strong>Example:</strong> {selectedLetter.example}

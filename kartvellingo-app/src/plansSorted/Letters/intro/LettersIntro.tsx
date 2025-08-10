@@ -44,7 +44,7 @@ function LettersIntro({
   return (
     <div className="letters-intro-page">
       <button className="exit-button" onClick={onExit}>
-        ×
+        Exit
       </button>
       <div className="intro-card">
         <h2>{slides[currentSlide].title}</h2>

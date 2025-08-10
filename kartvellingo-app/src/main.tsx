@@ -11,10 +11,13 @@ import BasicGrammar from "./plansSorted/BasicGrammar.tsx";
 import BasicPhrases from "./plansSorted/BasicPhrases.tsx";
 import LanguageFacts from "./plansSorted/LanguageFacts.tsx";
 import VowelQuiz from "./plansSorted/Letters/intro/vowels/VowelQuiz.tsx";
+import LettersIntroFlow from "./plansSorted/Letters/intro/LettersIntroFlow.tsx";
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
+        <Route path="/letters/intro-path" element={<LettersIntroFlow />}/>
         <Route path="/" element={<App />} />
         <Route path="/plans" element={<Plans />} />
         <Route path="/letters" element={<Letters />} />

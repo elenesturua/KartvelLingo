@@ -4,27 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- draft intro page idea that leads to vowels then leads to all letters">
-      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" afterDir="false" />
+    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntroFlow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/Plans.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/Plans.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/Plans.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/Plans.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicGrammar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicGrammar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicPhrases.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/BasicPhrases.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/LanguageFacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/LanguageFacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/Vowels.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/Vowels.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/Vowels.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/Vowels.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/letter-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/letter-data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +92,8 @@
       <workItem from="1753374793639" duration="114000" />
       <workItem from="1753375507441" duration="625000" />
       <workItem from="1753376204717" duration="9809000" />
-      <workItem from="1753721091229" duration="8018000" />
+      <workItem from="1753721091229" duration="10748000" />
+      <workItem from="1754227228064" duration="4021000" />
     </task>
     <task id="LOCAL-00001" summary="- added the georgian flag image and intro to the main page">
       <option name="closed" value="true" />
@@ -192,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753388353764</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- ran prettier on all files for better formatting&#10;- changed navigation into a more logital structure (giving users ability to exit from the intro, vowels or vowelQuiz page which all lead to the main letters page &#10;- finished the vowelquiz page with a 10 question long quiz with real time feedback for the user">
+      <option name="closed" value="true" />
+      <created>1753730810999</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753730810999</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,15 +220,15 @@
     <MESSAGE value="- can tap and enhance cards to view additional info on each letter" />
     <MESSAGE value="- designed the intro page for letter learning to explain some about the Georgian alphabet and start with learning 5 vowels to make it easier" />
     <MESSAGE value="- draft intro page idea that leads to vowels then leads to all letters" />
-    <option name="LAST_COMMIT_MESSAGE" value="- draft intro page idea that leads to vowels then leads to all letters" />
+    <MESSAGE value="- ran prettier on all files for better formatting&#10;- changed navigation into a more logital structure (giving users ability to exit from the intro, vowels or vowelQuiz page which all lead to the main letters page &#10;- finished the vowelquiz page with a 10 question long quiz with real time feedback for the user" />
+    <option name="LAST_COMMIT_MESSAGE" value="- ran prettier on all files for better formatting&#10;- changed navigation into a more logital structure (giving users ability to exit from the intro, vowels or vowelQuiz page which all lead to the main letters page &#10;- finished the vowelquiz page with a 10 question long quiz with real time feedback for the user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx</url>
-          <line>162</line>
-          <properties lambdaOrdinal="-1" />
+          <line>167</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

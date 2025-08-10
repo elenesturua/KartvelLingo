@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntroFlow.tsx" afterDir="false" />
+    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- updating paths to make it easier for the user to navigate&#10;- navigation updated using navigate instead of local storage in Letters.tsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/Plans.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/Plans.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/Plans.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/Plans.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/Vowels.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/Vowels.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/letter-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/letter-data.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +86,7 @@
       <workItem from="1753375507441" duration="625000" />
       <workItem from="1753376204717" duration="9809000" />
       <workItem from="1753721091229" duration="10748000" />
-      <workItem from="1754227228064" duration="4021000" />
+      <workItem from="1754227228064" duration="4507000" />
     </task>
     <task id="LOCAL-00001" summary="- added the georgian flag image and intro to the main page">
       <option name="closed" value="true" />
@@ -191,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753730810999</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="- updating paths to make it easier for the user to navigate&#10;- navigation updated using navigate instead of local storage in Letters.tsx">
+      <option name="closed" value="true" />
+      <created>1754825082326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1754825082326</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +222,8 @@
     <MESSAGE value="- designed the intro page for letter learning to explain some about the Georgian alphabet and start with learning 5 vowels to make it easier" />
     <MESSAGE value="- draft intro page idea that leads to vowels then leads to all letters" />
     <MESSAGE value="- ran prettier on all files for better formatting&#10;- changed navigation into a more logital structure (giving users ability to exit from the intro, vowels or vowelQuiz page which all lead to the main letters page &#10;- finished the vowelquiz page with a 10 question long quiz with real time feedback for the user" />
-    <option name="LAST_COMMIT_MESSAGE" value="- ran prettier on all files for better formatting&#10;- changed navigation into a more logital structure (giving users ability to exit from the intro, vowels or vowelQuiz page which all lead to the main letters page &#10;- finished the vowelquiz page with a 10 question long quiz with real time feedback for the user" />
+    <MESSAGE value="- updating paths to make it easier for the user to navigate&#10;- navigation updated using navigate instead of local storage in Letters.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="- updating paths to make it easier for the user to navigate&#10;- navigation updated using navigate instead of local storage in Letters.tsx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -106,3 +106,16 @@
   width: 90%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
+.letter-item {
+  all: unset;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+.letter-item:focus-visible {
+  outline: 2px solid #c8102e;
+  outline-offset: 2px;
+  background: #fff6f6;
+}
+

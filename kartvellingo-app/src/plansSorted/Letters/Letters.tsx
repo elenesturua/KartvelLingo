@@ -4,7 +4,7 @@ import { letterData, type LetterData } from "./letter-data";
 import LettersIntro from "./intro/LettersIntro.tsx";
 import Vowels from "./intro/vowels/Vowels.tsx";
 import VowelQuiz from "./intro/vowels/VowelQuiz.tsx";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Letters() {
   const [step, setStep] = useState<"intro" | "vowels" | "quiz" | "full">(
@@ -48,8 +48,13 @@ function Letters() {
 
       <ul className="letter-list">
         {letterData.map((letter, index) => (
-          <li key={index} onClick={() => setSelectedLetter(letter)}>
-            {letter.letter} – {letter.latin}
+          <li key={index}>
+            <button
+              className="letter-item"
+              onClick={() => setSelectedLetter(letter)}
+              >
+              {letter.letter} – {letter.latin}
+            </button>
           </li>
         ))}
       </ul>

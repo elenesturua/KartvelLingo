@@ -1,6 +1,7 @@
 import { useState } from "react";
 //import { useNavigate } from "react-router-dom";
 import "./LettersIntro.css";
+import LearningNav from "../../../components/LearningNav.tsx";
 
 const slides = [
   {
@@ -26,10 +27,8 @@ const slides = [
 ];
 
 function LettersIntro({
-  onExit,
   onFinish,
 }: {
-  onExit: () => void;
   onFinish: () => void;
 }) {
   //const navigate = useNavigate();
@@ -43,9 +42,11 @@ function LettersIntro({
 
   return (
     <div className="letters-intro-page">
-      <button className="exit-button" onClick={onExit}>
-        Exit
-      </button>
+      <LearningNav
+      jumpLabel="Jump to Alphabet"
+      jumpPath="/letters"
+      jumpState={{ jumpToFull: true }}
+      />
       <div className="intro-card">
         <h2>{slides[currentSlide].title}</h2>
         <p>{slides[currentSlide].content}</p>

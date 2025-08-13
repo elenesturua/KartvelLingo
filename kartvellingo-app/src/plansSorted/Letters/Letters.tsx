@@ -28,6 +28,11 @@ function Letters() {
 
   return (
     <div className="letters-page">
+        <div style={{ marginBottom: "1rem" }}>
+            <button className="start-button" onClick={() => navigate("/plans")}>
+                ← Back to Plans
+            </button>
+        </div>
       <h2>Georgian Alphabet</h2>
       <p>Click on a letter to learn more about its sound and example use:</p>
 
@@ -65,9 +70,6 @@ function Letters() {
         </div>
       )}
 
-      <button className="start-button" onClick={() => navigate("/plans")}>
-        ← Back to Plans
-      </button>
     </div>
   );
 }

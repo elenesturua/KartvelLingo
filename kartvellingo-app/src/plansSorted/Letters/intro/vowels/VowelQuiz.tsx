@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./VowelQuiz.css";
+import LearningNav from "../../../../components/LearningNav.tsx";
 
 interface QuizQuestion {
   letter: string;
@@ -74,13 +75,7 @@ const pronunciationQuiz: QuizQuestion[] = [
   },
 ];
 
-function VowelQuiz({
-  onExit,
-  onFinish,
-}: {
-  onExit: () => void;
-  onFinish?: () => void;
-}) {
+function VowelQuiz() {
   const [phase, setPhase] = useState<"equivalence" | "pronunciation" | "done">(
     "equivalence",
   );
@@ -131,9 +126,11 @@ function VowelQuiz({
 
   return (
     <div className="vowel-quiz-page">
-      <button className="exit-button" onClick={onExit}>
-        Exit
-      </button>
+      <LearningNav
+          jumpLabel="Jump to Alphabet"
+          jumpPath="/letters"
+          jumpState={{ jumpToFull: true }}
+      />
       <h2>Vowel Quiz</h2>
       <p>Test your knowledge of the Georgian vowels!</p>
 

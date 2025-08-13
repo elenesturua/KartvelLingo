@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { letterData, type LetterData } from "../../letter-data";
 import "../../Letters.css";
+import LearningNav from "../../../../components/LearningNav.tsx";
 
 function Vowels({
-  onExit,
   onFinish,
 }: {
-  onExit: () => void;
   onFinish: () => void;
 }) {
   const vowels = letterData.filter(
@@ -20,9 +19,11 @@ function Vowels({
   const [selectedLetter, setSelectedLetter] = useState<LetterData | null>(null);
   return (
     <div className="letters-page">
-      <button className={"exit-button"} onClick={onExit}>
-        x
-      </button>
+        <LearningNav
+            jumpLabel="Jump to Alphabet"
+            jumpPath="/letters"
+            jumpState={{ jumpToFull: true }}
+        />
 
       <h2>Georgian Vowels</h2>
       <p>

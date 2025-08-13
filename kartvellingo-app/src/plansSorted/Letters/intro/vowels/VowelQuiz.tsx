@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./VowelQuiz.css";
 
-
 interface QuizQuestion {
   letter: string;
   question: string;
@@ -77,8 +76,10 @@ const pronunciationQuiz: QuizQuestion[] = [
 
 function VowelQuiz({
   onExit,
+  onFinish,
 }: {
   onExit: () => void;
+  onFinish?: () => void;
 }) {
   const [phase, setPhase] = useState<"equivalence" | "pronunciation" | "done">(
     "equivalence",
@@ -91,12 +92,11 @@ function VowelQuiz({
   const [equiv, setEquiv] = useState(() => shuffle(equivalenceQuiz));
   const [pron, setPron] = useState(() => shuffle(pronunciationQuiz));
 
-  const questions =
-    phase === "equivalence" ? equiv : pron;
+  const questions = phase === "equivalence" ? equiv : pron;
   const question = questions[current];
 
   const handleOptionClick = (option: string) => {
-    if (selectedOption) return; // prevent double selection
+    if (selectedOption) return;
     setSelectedOption(option);
     setShowAnswer(true);
     if (option === question.answer) {

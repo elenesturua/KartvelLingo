@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- making letter-list keyboard-accessable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/Plans.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/Plans.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/Plans.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/Plans.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntroFlow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntroFlow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +92,7 @@
       <workItem from="1753376204717" duration="9809000" />
       <workItem from="1753721091229" duration="10748000" />
       <workItem from="1754227228064" duration="5185000" />
+      <workItem from="1755098658109" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="- added the georgian flag image and intro to the main page">
       <option name="closed" value="true" />
@@ -232,16 +239,5 @@
     <MESSAGE value="- updating paths to make it easier for the user to navigate&#10;- navigation updated using navigate instead of local storage in Letters.tsx" />
     <MESSAGE value="- making letter-list keyboard-accessable" />
     <option name="LAST_COMMIT_MESSAGE" value="- making letter-list keyboard-accessable" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx</url>
-          <line>170</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

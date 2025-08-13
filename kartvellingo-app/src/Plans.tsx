@@ -4,11 +4,9 @@ import "./Plans.css";
 function Plans() {
   const navigate = useNavigate();
   const handleStartLetters = () => {
-    navigate("/letters");
+    navigate("/letters", { state: { jumpToFull: true } });
   };
-  const handleIntroLetters = ()=>{
-      navigate("/letters/intro-path");
-  };
+
   const handleStartGrammar = () => {
     navigate("/basic-grammar");
   };
@@ -25,15 +23,28 @@ function Plans() {
 
       <div className={"plan-card"} onClick={handleStartLetters}>
         <h3> the Georgian Alphabet </h3>
-          <p>Explore the 33 unique letters of the Georgian script.</p>
-          <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-              <button className="start-button" onClick={handleIntroLetters}>
-                  Start Guided Intro
-              </button>
-              <button className="start-button outline" onClick={handleStartLetters}>
-                  Jump to Alphabet
-              </button>
-          </div>
+        <p>Explore the 33 unique letters of the Georgian script.</p>
+        <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+          <button
+            className="start-button"
+            onClick={(e) => {
+              e.stopPropagation();
+              navigate("/letters/intro-path");
+            }}
+          >
+            Start Guided Intro
+          </button>
+
+          <button
+            className="start-button outline"
+            onClick={(e) => {
+              e.stopPropagation();
+              navigate("/letters", { state: { jumpToFull: true } });
+            }}
+          >
+            Jump to Alphabet
+          </button>
+        </div>
       </div>
       <div className={"plan-card"} onClick={handleStartGrammar}>
         <h3> Basic Grammar </h3>

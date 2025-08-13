@@ -1,45 +1,30 @@
-import "./Letters.css";
 import { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { letterData, type LetterData } from "./letter-data";
-import LettersIntro from "./intro/LettersIntro.tsx";
-import Vowels from "./intro/vowels/Vowels.tsx";
-import VowelQuiz from "./intro/vowels/VowelQuiz.tsx";
-import { useNavigate } from "react-router-dom";
+import "./Letters.css";
 
 function Letters() {
+  const location = useLocation();
+  const navigate = useNavigate();
   const [step, setStep] = useState<"intro" | "vowels" | "quiz" | "full">(
     "intro",
   );
   const [selectedLetter, setSelectedLetter] = useState<LetterData | null>(null);
-  const navigate = useNavigate();
-  useEffect(() => {
-    const completed = localStorage.getItem("lettersIntroCompleted");
-    if (completed === "true") {
-      setStep("full");
-    }
-  }, []);
-  const handleIntroComplete = () => setStep("vowels");
-  const handleVowelsComplete = () => setStep("quiz");
-  const handleQuizComplete = () => {
-    localStorage.setItem("lettersIntroCompleted", "true");
-    setStep("full");
-  };
 
-  if (step === "intro")
-    return (
-      <LettersIntro
-        onExit={() => setStep("full")}
-        onFinish={handleIntroComplete}
-      />
-    );
-  if (step === "vowels")
-    return (
-      <Vowels onExit={() => setStep("full")} onFinish={handleVowelsComplete} />
-    );
-  if (step === "quiz")
-    return (
-      <VowelQuiz onExit={() => setStep("full")} onFinish={handleQuizComplete} />
-    );
+  useEffect(() => {
+    if ((location.state as any)?.jumpToFull) {
+      setStep("full");
+      return;
+    }
+
+    // Default: go to intro
+    setStep("intro");
+  }, [location.state]);
+
+  if (step !== "full") {
+    navigate("/letters/intro-path");
+    return null;
+  }
 
   return (
     <div className="letters-page">
@@ -52,7 +37,7 @@ function Letters() {
             <button
               className="letter-item"
               onClick={() => setSelectedLetter(letter)}
-              >
+            >
               {letter.letter} – {letter.latin}
             </button>
           </li>

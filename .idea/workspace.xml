@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- changed paths to intro and letters from plans to ensure access to both&#10;- added the onfinish prop to vowelquiz.tsx&#10;-ran prettier on all files for better formatting">
-      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/components/LearningNav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kartvellingo-app/src/components/LearningNav.tsx" afterDir="false" />
+    <list default="true" id="39326281-2137-4b03-9e67-7607394757cd" name="Changes" comment="- created a learningNav file to manage navigation from each tab to the main plans page or to skip the intro to ensure better user experience">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/Letters.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/LettersIntro.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/VowelQuiz.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/Vowels.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/plansSorted/Letters/intro/vowels/Vowels.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/components/LearningNav.css" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/components/LearningNav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kartvellingo-app/src/components/LearningNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/kartvellingo-app/src/components/LearningNav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -91,7 +88,8 @@
       <workItem from="1753376204717" duration="9809000" />
       <workItem from="1753721091229" duration="10748000" />
       <workItem from="1754227228064" duration="5185000" />
-      <workItem from="1755098658109" duration="6597000" />
+      <workItem from="1755098658109" duration="7562000" />
+      <workItem from="1755337364645" duration="3892000" />
     </task>
     <task id="LOCAL-00001" summary="- added the georgian flag image and intro to the main page">
       <option name="closed" value="true" />
@@ -213,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755099670878</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="- created a learningNav file to manage navigation from each tab to the main plans page or to skip the intro to ensure better user experience">
+      <option name="closed" value="true" />
+      <created>1755114746681</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1755114746681</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +252,7 @@
     <MESSAGE value="- updating paths to make it easier for the user to navigate&#10;- navigation updated using navigate instead of local storage in Letters.tsx" />
     <MESSAGE value="- making letter-list keyboard-accessable" />
     <MESSAGE value="- changed paths to intro and letters from plans to ensure access to both&#10;- added the onfinish prop to vowelquiz.tsx&#10;-ran prettier on all files for better formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="- changed paths to intro and letters from plans to ensure access to both&#10;- added the onfinish prop to vowelquiz.tsx&#10;-ran prettier on all files for better formatting" />
+    <MESSAGE value="- created a learningNav file to manage navigation from each tab to the main plans page or to skip the intro to ensure better user experience" />
+    <option name="LAST_COMMIT_MESSAGE" value="- created a learningNav file to manage navigation from each tab to the main plans page or to skip the intro to ensure better user experience" />
   </component>
 </project>

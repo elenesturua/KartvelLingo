@@ -14,12 +14,21 @@ export default function LearningNav({
 
     return (
         <div className="learning-nav">
-            <button onClick={() => navigate("/plans")}>← Back to Plans</button>
+            <button className="nav-link" onClick={() => navigate("/plans")}>
+                ← Back to Plans
+            </button>
 
-            {jumpLabel && jumpPath && (
-                <button onClick={() => navigate(jumpPath, jumpState ? { state: jumpState } : undefined)}>
+            {jumpLabel && jumpPath ? (
+                <button
+                    className="nav-link"
+                    onClick={() =>
+                        navigate(jumpPath, jumpState ? { state: jumpState } : undefined)
+                    }
+                >
                     {jumpLabel} →
                 </button>
+            ) : (
+                <span />
             )}
         </div>
     );
